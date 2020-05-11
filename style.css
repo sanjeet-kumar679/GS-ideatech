@@ -1,0 +1,175 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+	.text_effects{
+	text-shadow: 2px 4px 2px blue;
+	transition: transform 2s;
+}
+
+.batman_contact{
+	width: 100%; height: 100px;
+	 position: relative;
+}
+.batman_contact img{
+	width: 140px; height: 100px;
+	position: absolute;
+	left: 0; top: -15px;
+	animation-name: pokemonbhag;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes pokemonbhag{
+	from{left:0}
+	to{left:85%}
+}
+.love_class{
+	width: 50px;
+	height: 50px;
+}
+.img-fluid{
+	border-radius: 15px;
+
+}
+.img-fluid:hover{
+	box-shadow: 4px 4px 5px 2px black;
+
+	
+	}
+.card{
+	box-shadow: 4px 4px 5px 3px grey;
+	
+
+
+}
+.card:hover{
+	box-shadow: 4px 4px 5px 3px grey;
+    transform: translateY(-20px);
+    color: #e84118;
+    text-weight:bold;
+    
+
+}
+#dad:hover{
+	box-shadow: 4px 4px 5px 3px grey;
+	transform: translateY(-20px);
+    color: black;
+    text-weight:bold;
+    background-color:#22a6b3;
+
+}
+.font_about:hover{
+	transform: translateY(-50px);
+	transition: transform 1s;
+	transition-timing-function: linear;
+
+
+
+}
+
+@font-face{
+	font-family: kuch;
+	src:url('go3v2.ttf');
+}
+
+.font_about{
+	font-family: kuch;
+
+}
+
+.text_effects:hover{
+	transform: rotate(360deg);
+}
+.join_gradient{
+	background-image: linear-gradient(to left, #f650fe, #6078f5)
+}
+
+/*footerstart*/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background:#00abff;
+	position: relative;
+
+}
+.footersection p{
+	color: white;
+
+}
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+
+
+}
+.footer-.div ul li:hover{
+	color: yellow;
+
+}
+
+
+	
+.footer-div ul li{
+	color: #fff;
+	text-align: center;
+	
+}
+
+
+/*footer ends*/
+.fa-facebook{
+	color: #341f97;
+}
+.fa-instagram{
+	color: #ee5253;
+}
+.fa-twitter{
+	color: #48dbfb;
+
+}
+.fa-linkedin{
+	color: #5f27cd;
+}
+.scroll-top{
+	/*display:none;*/
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border:none;
+	color: #fff;
+
+     padding: 10px;
+	border-radius: 10px;
+
+}
+
+.scroll-top:hover{
+	color:red;
+
+}
+@media(max-width: 760px){
+	.navbar-nav{
+		text-align: center!important;
+	}
+	.our_services{
+		height: auto;
+		margin-top: 50px;
+	}
+	.card-second{
+		transform: translateY(0px);
+
+		margin: 30px 0;
+	}
+} 
+
+
+
